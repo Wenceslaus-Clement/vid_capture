@@ -8,8 +8,8 @@ import speech_recognition as sr
 from moviepy.editor import AudioFileClip
 
 # OMDB and TMDB API keys
-OMDB_API_KEY = '71448efb'
-TMDB_API_KEY = 'f6f74d3416647ac0ebd60667187fa8b8'
+OMDB_API_KEY = ''
+TMDB_API_KEY = ''
 
 def upload_video(request):
     """
