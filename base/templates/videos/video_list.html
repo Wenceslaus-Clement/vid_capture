@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Video List</title>
+  </head>
+  <body>
+    <h1>Video List</h1>
+    <ul>
+      {% for video in videos %}
+      <li>{{ video }}</li>
+      {% empty %}
+      <li>No videos uploaded yet.</li>
+      {% endfor %}
+    </ul>
+    <a href="{% url 'upload_video' %}">Upload a new video</a>
+  </body>
+</html>
